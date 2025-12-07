@@ -10,17 +10,17 @@
 ### Backend (Python):
 
 > Bash
-> - cd backend
-> - pip install fastapi uvicorn google-generativeai pydantic
+> - `cd backend`
+> - `pip install fastapi uvicorn google-generativeai pydantic`
 > -  Add your GEMINI_API_KEY in `main.py`
-> - uvicorn main:app --reload
+> - `uvicorn main:app --reload`
 
 ### Frontend (React/Vite):
 
 > Bash
-> - cd frontend
-> - npm install
-> - npm run dev
+> - `cd frontend`
+> - `npm install`
+> - `npm run dev`
 
 ---
 
@@ -43,7 +43,7 @@ The "Backend" performs the calculations and talks to the AI.
 4. Install the required libraries by typing this command and hitting Enter:
 
 > Bash
-> - pip install fastapi uvicorn google-generativeai pydantic
+> - `pip install fastapi uvicorn google-generativeai pydantic`
 
 
 Add your API Key:
@@ -54,7 +54,7 @@ Add your API Key:
 4. Start the Server: Type the following command in the terminal:
 
 > Bash
-> - uvicorn main:app --reload
+> - `uvicorn main:app --reload`
 
 If successful, you will see a message saying: Uvicorn running on http://127.0.0.1:8000. 
 ⚠ KEEP THIS WINDOW OPEN. Do not close it, or the AI will stop working.
@@ -69,14 +69,14 @@ The "Frontend" is what you see and click on.
 Install the dependencies by typing:
 
 > Bash 
-> - npm install
+> - `npm install`
 
 This might take a minute as it downloads React, Lucide icons, and the PDF generator.
 
 To start the Website: Type the following command:
 
 > Bash
-> - npm run dev
+> - `npm run dev`
  
 To open the App: 
 The terminal will show a link (usually http://localhost:5173). Control-click that link (or copy-paste it into your browser).
